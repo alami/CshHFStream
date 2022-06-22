@@ -10,7 +10,11 @@ namespace CshHFStream
     {
         static void Main(string[] args)
         {
-            StreamWriterTest.Test();
+            //StreamWriterTest.Test();
+            //StreamReaderTest.Test();
+            //MemoryStreamTest.Test();
+            JsonSerial.Test();
+            Console.ReadKey();
         }
     }
 }
